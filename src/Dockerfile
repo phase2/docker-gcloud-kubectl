@@ -1,4 +1,4 @@
-FROM gcr.io/google.com/cloudsdktool/google-cloud-cli:398.0.0-alpine as build
+FROM gcr.io/google.com/cloudsdktool/google-cloud-cli:399.0.0-alpine as build
 ENV USE_GKE_GCLOUD_AUTH_PLUGIN=True
 RUN gcloud components install \
         kubectl \
